@@ -14,7 +14,7 @@ function ComponentF() {
               return (
                 <languageContext.Consumer >
                   {
-                    language => {
+                    language => {rfce
                       return <div>{user.name}:{language}</div>
                     }
                   }
